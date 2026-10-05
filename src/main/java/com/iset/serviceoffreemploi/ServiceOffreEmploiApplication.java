@@ -4,8 +4,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+
 import com.iset.serviceoffreemploi.dao.OffreRepository;
 import com.iset.serviceoffreemploi.entities.Offre;
+
 @SpringBootApplication
 public class ServiceOffreEmploiApplication implements CommandLineRunner {
 

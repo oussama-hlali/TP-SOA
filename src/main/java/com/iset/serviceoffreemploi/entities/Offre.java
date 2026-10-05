@@ -20,8 +20,9 @@ public class Offre {
     public Offre() {
     }
 
-    public Offre(String intitulé, String specialité, String société,
-                 int nbpostes, String pays) {
+    public Offre(String intitulé, String specialité,
+                 String société, int nbpostes, String pays) {
+
         this.intitulé = intitulé;
         this.specialité = specialité;
         this.société = société;

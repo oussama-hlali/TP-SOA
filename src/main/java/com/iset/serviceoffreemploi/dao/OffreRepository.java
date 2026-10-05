@@ -1,8 +1,8 @@
 package com.iset.serviceoffreemploi.dao;
 
-import com.iset.serviceoffreemploi.entities.Offre;
 import org.springframework.data.jpa.repository.JpaRepository;
 
+import com.iset.serviceoffreemploi.entities.Offre;
 
 public interface OffreRepository extends JpaRepository<Offre, Long> {
 
